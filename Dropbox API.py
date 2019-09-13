@@ -25,8 +25,8 @@ def downloadfile(source_file, destination_file):
 	os.chmod(source_file, 0o777)
 	with open(source_file, 'wb') as f:
 		metadata, res = dbx.files_download(destination_file)
+		end = time.time()
 		f.write(res.content) 
-	end = time.time()
 	duration = (end-start)/1000
 	bitsloaded = os.path.getsize(source_file)*8
 	speedBps = (bitsloaded / duration);
