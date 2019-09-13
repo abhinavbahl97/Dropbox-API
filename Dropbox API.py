@@ -3,7 +3,7 @@ import dropbox
 import time
 import os
 
-access_token = '8b4sX2s-cNAAAAAAAAAASX9JWuRJgMVxkrcVEDJaOTz_dUwMZPJv2VHCjoGUZV6-'
+access_token = '******'
 
 def uploadfile(source_file, destination_file):
 	dbx = dropbox.Dropbox(access_token)
