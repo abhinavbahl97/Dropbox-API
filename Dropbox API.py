@@ -37,11 +37,11 @@ def downloadfile(source_file, destination_file):
 
 def main():
 
-	upload_source_file =  '/Users/abhinavbahl/Desktop/cover letter_data.docx'
-	upload_destination_file = '/CoverLetter.docx'
+	upload_source_file =  '/Data.docx'
+	upload_destination_file = '/Destination.docx'
 
-	download_source_file  = '/Users/abhinavbahl/Desktop/dropbox download.txt'
-	download_destination_file = '/CoverLetter.docx'
+	download_source_file  = '/Data.txt'
+	download_destination_file = '/Destination.docx'
 
 	downloadfile(download_source_file, download_destination_file)
 	uploadfile(upload_source_file, upload_destination_file);
