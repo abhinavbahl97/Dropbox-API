@@ -40,7 +40,7 @@ def main():
 	upload_source_file =  '/Data.docx'
 	upload_destination_file = '/Destination.docx'
 
-	download_source_file  = '/Data.txt'
+	download_source_file  = 'Data.txt'
 	download_destination_file = '/Destination.docx'
 
 	downloadfile(download_source_file, download_destination_file)
